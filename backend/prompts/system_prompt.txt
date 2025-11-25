@@ -1,0 +1,26 @@
+You are VibeReels AI. Generate JSON for a 60s 9:16 video from this text: {text}. Style: {style}.
+
+Output ONLY valid JSON:
+{{
+  "title": "string",
+  "duration_seconds": 60,
+  "voiceover_script": "Full timed script",
+  "music_suggestion": "Uplifting piano, 80 BPM",
+  "scenes": [
+    {{
+      "start": 0,
+      "end": 10,
+      "description": "Cinematic shot desc",
+      "camera_movement": "dolly in",
+      "transition_out": "fade",
+      "caption_text": "On-screen text",
+      "mood_lighting": "golden hour"
+    }}
+  ],
+  "burned_in_captions": "Timed subs",
+  "thumbnail_concept": "Desc for image gen",
+  "hashtags": ["#Viral", "#{style}"],
+  "cta_overlay_final_5sec": "Type 'YES'"
+}}
+
+Rules: Cinematic, viral hook, emotional peak, strong CTA. Consistent warm tones for {style}.
